@@ -1,0 +1,40 @@
+Anotações Git e GitHub
+
+openssl sha1
+- conjunto de 40 caracteres para encriptação
+- forma curta de representar um arquivo
+
+Objetos internos do GIT
+
+Blobs - bloco básico de composição
+- blob
+- tamanho
+- barra
+- conteúdo
+
+Trees
+- responsável por montar as árvores
+- apontam para blobs ou outras árvores
+
+Commits
+- aponta para uma árvore, para um autor, para uma mensagem
+- também possuem encriptação
+
+Monta uma linha do tempo.
+
+git hash-object --stdin
+
+Git armazena metadados do git pelo blob
+
+Chave SSH e Token
+
+SSH - forma encriptada de conectar duas máquinas
+
+pwd - mostra o caminho completo
+
+git init
+git add
+git commit
+git status
+
+mv - move arquivo
